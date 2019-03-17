@@ -1,7 +1,7 @@
 /**
  * Исключение неправильного формата ввода записи.
  */
-public class WrongFormatException extends RuntimeException {
+public class WrongFormatException extends Exception {
     @Override
     public void printStackTrace() {
         super.printStackTrace();

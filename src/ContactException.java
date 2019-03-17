@@ -1,7 +1,7 @@
 /**
  * Исключение повторной записи одного и того же контакта
  */
-public class ContactException extends RuntimeException{
+public class ContactException extends Exception{
     @Override
     public void printStackTrace() {
         super.printStackTrace();
